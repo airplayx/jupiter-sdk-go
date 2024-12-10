@@ -8,5 +8,4 @@
  */
 package jupiter
 
-type AnyOfSwapRequestComputeUnitPriceMicroLamports struct {
-}
+type AnyOfSwapRequestComputeUnitPriceMicroLamports any

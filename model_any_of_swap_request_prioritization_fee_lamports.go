@@ -8,5 +8,4 @@
  */
 package jupiter
 
-type AnyOfSwapRequestPrioritizationFeeLamports struct {
-}
+type AnyOfSwapRequestPrioritizationFeeLamports any

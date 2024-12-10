@@ -1,4 +1,4 @@
-module github.com/Halimao/jupiter-sdk-go
+module github.com/airplayx/jupiter-sdk-go
 
 go 1.23.3
 
