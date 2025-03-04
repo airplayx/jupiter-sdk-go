@@ -1,6 +1,6 @@
 # {{classname}}
 
-All URIs are relative to *https://quote-api.jup.ag/v6*
+All URIs are relative to *https://api.jup.ag/swap/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -98,8 +98,8 @@ Name | Type | Description  | Notes
  **computeAutoSlippage** | **optional.Bool**| Compute auto slippage value without using it. | 
  **maxAutoSlippageBps** | **optional.Int32**| Max slippage in basis points for auto slippage calculation. Default is 400. | 
  **swapMode** | **optional.String**| (ExactIn or ExactOut) Defaults to ExactIn. ExactOut is for supporting use cases where you need an exact token amount, like payments. In this case the slippage is on the input token. | 
- **dexes** | [**optional.Interface of []string**](string.md)| Default is that all DEXes are included. You can pass in the DEXes that you want to include only and separate them by &#x60;,&#x60;. You can check out the full list [here](https://quote-api.jup.ag/v6/program-id-to-label). | 
- **excludeDexes** | [**optional.Interface of []string**](string.md)| Default is that all DEXes are included. You can pass in the DEXes that you want to exclude and separate them by &#x60;,&#x60;. You can check out the full list [here](https://quote-api.jup.ag/v6/program-id-to-label). | 
+ **dexes** | [**optional.Interface of []string**](string.md)| Default is that all DEXes are included. You can pass in the DEXes that you want to include only and separate them by &#x60;,&#x60;. You can check out the full list [here](https://api.jup.ag/swap/v1/program-id-to-label). | 
+ **excludeDexes** | [**optional.Interface of []string**](string.md)| Default is that all DEXes are included. You can pass in the DEXes that you want to exclude and separate them by &#x60;,&#x60;. You can check out the full list [here](https://api.jup.ag/swap/v1/program-id-to-label). | 
  **restrictIntermediateTokens** | **optional.Bool**| Restrict intermediate tokens to a top token set that has stable liquidity. This will help to ease potential high slippage error rate when swapping with minimal impact on pricing. | 
  **onlyDirectRoutes** | **optional.Bool**| Default is false. Direct Routes limits Jupiter routing to single hop routes only. | 
  **asLegacyTransaction** | **optional.Bool**| Default is false. Instead of using versioned transaction, this will use the legacy transaction. | 

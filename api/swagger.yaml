@@ -15,7 +15,7 @@ info:
     - raw data such as Vec<u8\> are base64 encoded strings
   version: 6.0.0
 servers:
-- url: https://quote-api.jup.ag/v6
+- url: https://api.jup.ag/swap/v1
 paths:
   /quote:
     get:
@@ -106,7 +106,7 @@ paths:
         in: query
         description: "Default is that all DEXes are included. You can pass in the\
           \ DEXes that you want to include only and separate them by `,`. You can\
-          \ check out the full list [here](https://quote-api.jup.ag/v6/program-id-to-label)."
+          \ check out the full list [here](https://api.jup.ag/swap/v1/program-id-to-label)."
         required: false
         style: form
         explode: true
@@ -118,7 +118,7 @@ paths:
         in: query
         description: "Default is that all DEXes are included. You can pass in the\
           \ DEXes that you want to exclude and separate them by `,`. You can check\
-          \ out the full list [here](https://quote-api.jup.ag/v6/program-id-to-label)."
+          \ out the full list [here](https://api.jup.ag/swap/v1/program-id-to-label)."
         required: false
         style: form
         explode: true
@@ -848,7 +848,7 @@ components:
       in: query
       description: "Default is that all DEXes are included. You can pass in the DEXes\
         \ that you want to include only and separate them by `,`. You can check out\
-        \ the full list [here](https://quote-api.jup.ag/v6/program-id-to-label)."
+        \ the full list [here](https://api.jup.ag/swap/v1/program-id-to-label)."
       required: false
       style: form
       explode: true
@@ -861,7 +861,7 @@ components:
       in: query
       description: "Default is that all DEXes are included. You can pass in the DEXes\
         \ that you want to exclude and separate them by `,`. You can check out the\
-        \ full list [here](https://quote-api.jup.ag/v6/program-id-to-label)."
+        \ full list [here](https://api.jup.ag/swap/v1/program-id-to-label)."
       required: false
       style: form
       explode: true

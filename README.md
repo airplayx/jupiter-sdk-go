@@ -26,7 +26,7 @@ import "github.com/airplayx/jupiter-sdk-go"
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://quote-api.jup.ag/v6*
+All URIs are relative to *https://api.jup.ag/swap/v1*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
